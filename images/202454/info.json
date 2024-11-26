@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 96,
+    "height" : 128
+  }, {
+    "width" : 192,
+    "height" : 255
+  }, {
+    "width" : 384,
+    "height" : 510
+  }, {
+    "width" : 768,
+    "height" : 1020
+  }, {
+    "width" : 1536,
+    "height" : 2040
+  }, {
+    "width" : 3072,
+    "height" : 4080
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3072,
+  "@id" : "https://udcmrk.github.io/IIIF_Nov/images/202454",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 4080
+}
