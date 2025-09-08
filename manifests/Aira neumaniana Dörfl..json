@@ -1,0 +1,219 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/manifest.json",
+    "type": "Manifest",
+    "metadata": [
+        {
+            "label": {
+                "en": [
+                    "title"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Aira neumaniana Dörfl."
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "description"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Annotating herbarium sheet from the Smithsonian (Aira neumaniana Dörfl.)"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "creation_date"
+                ]
+            },
+            "value": {
+                "en": [
+                    "2025-09-08T12:32:42.488Z"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "last_update"
+                ]
+            },
+            "value": {
+                "en": [
+                    "2025-09-08T12:38:54.230Z"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "adno_settings"
+                ]
+            },
+            "value": {
+                "en": [
+                    "ewogICAgImRlbGF5IjogNSwKICAgICJzaG93TmF2aWdhdG9yIjogdHJ1ZSwKICAgICJ0b29sc2Jhck9uRnMiOiB0cnVlLAogICAgInNpZGViYXJFbmFibGVkIjogdHJ1ZSwKICAgICJzdGFydGJ5Zmlyc3Rhbm5vIjogZmFsc2UsCiAgICAic2hvdWxkQXV0b1BsYXlBbm5vdGF0aW9ucyI6IGZhbHNlLAogICAgInJvdGF0aW9uIjogZmFsc2UsCiAgICAiZGlzcGxheVRvb2xiYXIiOiB0cnVlLAogICAgInRhZ3MiOiBbXSwKICAgICJvdXRsaW5lV2lkdGgiOiAib3V0bGluZS0xcHgiLAogICAgIm91dGxpbmVDb2xvciI6ICJvdXRsaW5lLXdoaXRlIiwKICAgICJvdXRsaW5lQ29sb3JGb2N1cyI6ICJvdXRsaW5lLWZvY3VzLXllbGxvdyIsCiAgICAic2hvd091dGxpbmVzIjogdHJ1ZSwKICAgICJzaG93RXllcyI6IGZhbHNlLAogICAgInNvdW5kTW9kZSI6ICJub19zb3VuZCIKfQ=="
+                ]
+            }
+        }
+    ],
+    "label": {
+        "en": [
+            "Annotating herbarium sheet from the Smithsonian (Aira neumaniana Dörfl.)"
+        ],
+        "fr": [
+            "Annotating herbarium sheet from the Smithsonian (Aira neumaniana Dörfl.)"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://example.com/canvas-1",
+            "type": "Canvas",
+            "height": 5616,
+            "width": 3744,
+            "items": [
+                {
+                    "id": "https://example.com/annotation-page/canvas-1/annopage-1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://example.com/annotation/canvas-1/annopage-1/anno-1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://ids.si.edu/ids/iiif/NMNH-01919510-000002",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "service": [
+                                    {
+                                        "id": "https://ids.si.edu/ids/iiif/NMNH-01919510-000002",
+                                        "type": "ImageService3",
+                                        "profile": "level1"
+                                    }
+                                ],
+                                "height": 5616,
+                                "width": 3744
+                            },
+                            "target": "https://example.com/canvas-1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://example.com/canvas-1/annopage-2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://example.com/canvas-1/annopage-2/anno-0",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "Seeds/Fruit",
+                                    "purpose": "commenting"
+                                },
+                                {
+                                    "type": "HTMLBody",
+                                    "value": "<p>Seeds/Fruit</p>",
+                                    "purpose": "commenting"
+                                }
+                            ],
+                            "target": {
+                                "type": "SpecificResource",
+                                "source": "https://example.com/canvas-1",
+                                "selector": {
+                                    "type": "SvgSelector",
+                                    "value": "<svg><path d=\"M 1451,1347 L 1235,1168 L 1213,998 L 1367,912 L 1932,1127 L 1819,1262 L 1926,1360 L 2267,1430 L 2106,1551 L 2192,1570 L 2380,1505 L 2568,2001 L 1948,1730 L 1834,1569 L 1667,1477 L 1559,1427 Z\" /></svg>"
+                                }
+                            }
+                        },
+                        {
+                            "id": "https://example.com/canvas-1/annopage-2/anno-1",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "USNM Herbarium #3702404",
+                                    "purpose": "commenting"
+                                },
+                                {
+                                    "type": "HTMLBody",
+                                    "value": "<p>USNM Herbarium #3702404</p>",
+                                    "purpose": "commenting"
+                                }
+                            ],
+                            "target": {
+                                "type": "SpecificResource",
+                                "source": "https://example.com/canvas-1",
+                                "selector": {
+                                    "type": "FragmentSelector",
+                                    "value": "xywh=256,4730,552,502"
+                                }
+                            }
+                        },
+                        {
+                            "id": "https://example.com/canvas-1/annopage-2/anno-2",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "Label\nCollector:\nCollector: A. Lindfors \nType Citation: Dörfler, I. 1911. Herbarium Normale. no. 5367.\nType Status: Voucher\nPlace: Fennia, prope Korsnas, Finland, Europe\nCollection Date: Jul 1909\nRecord Last Modified: 2 Feb 2018",
+                                    "purpose": "commenting"
+                                },
+                                {
+                                    "type": "HTMLBody",
+                                    "value": "<p>Label</p><p>Collector:</p><p>Collector: A. Lindfors&nbsp;</p><p>Type Citation: Dörfler, I. 1911. Herbarium Normale. no. 5367.</p><p>Type Status: Voucher</p><p>Place: Fennia, prope Korsnas, Finland, Europe</p><p>Collection Date: Jul 1909</p><p>Record Last Modified: 2 Feb 2018</p>",
+                                    "purpose": "commenting"
+                                }
+                            ],
+                            "target": {
+                                "type": "SpecificResource",
+                                "source": "https://example.com/canvas-1",
+                                "selector": {
+                                    "type": "FragmentSelector",
+                                    "value": "xywh=2227,4545,1371,830"
+                                }
+                            }
+                        },
+                        {
+                            "id": "https://example.com/canvas-1/annopage-2/anno-3",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "Roots",
+                                    "purpose": "commenting"
+                                },
+                                {
+                                    "type": "HTMLBody",
+                                    "value": "<p>Roots</p>",
+                                    "purpose": "commenting"
+                                }
+                            ],
+                            "target": {
+                                "type": "SpecificResource",
+                                "source": "https://example.com/canvas-1",
+                                "selector": {
+                                    "type": "SvgSelector",
+                                    "value": "<svg><path d=\"M 1555,5021 L 1857,4346 L 2086,4346 L 2002,4838 L 1719,5033 Z\" /></svg>"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
